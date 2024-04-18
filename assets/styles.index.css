@@ -21,7 +21,7 @@ padding: 10px;
 }
 
 header{
-    background-color: aliceblue;
+    background-color: rgb(217, 235, 250);
     border-radius: 6px;
     height: 150px;
     display: flex;
@@ -29,4 +29,27 @@ header{
     justify-content: center;
     align-items: center;
 
+}
+
+#principal {
+border-radius: 6px;
+height: 800px;
+margin: 10px 0;
+flex-direction: row;
+display: flex;
+justify-content: space-between;
+}
+
+main {
+    background-color: #c9d4ed ;
+    border-radius: 6px;
+    height: 100%;
+    width: 74.5%;
+}
+
+aside {
+    background-color: #b8c9ef;   
+    border-radius: 6px;
+    height: 100%;
+    width: 25%;
 }
